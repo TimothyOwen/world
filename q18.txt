@@ -1,1 +1,6 @@
-SELECT Name, LifeExpectancy FROM Country WHERE LifeExpectancy IS NOT NULL ORDER BY LifeExpectancy ASC LIMIT 1;
+SELECT Name, LifeExpectancy 
+FROM Country WHERE LifeExpectancy IS NOT NULL 
+ORDER BY LifeExpectancy ASC LIMIT 1;
+
+
+#CORRECT

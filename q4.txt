@@ -1,1 +1,4 @@
-SELECT Name FROM City WHERE ID IN(SELECT Capital FROM City ci JOIN Country co ON ci.CountryCOde=co.Code WHERE CODE='ESP');
+SELECT Name FROM City 
+WHERE ID IN(SELECT Capital FROM City ci JOIN Country co ON ci.CountryCode=co.Code WHERE CODE='ESP');
+
+#CORRECT

@@ -1,2 +1,7 @@
 SELECT Name, GNP FROM Country
 ORDER BY GNPOld DESC LIMIT 10;
+
+
+
+
+#CORRECT

@@ -6,3 +6,6 @@ WHERE HeadofState='Elisabeth II';
 SELECT COUNT(Code) 
 FROM country 
 WHERE HeadofState='ELizabeth II';
+
+
+#CORRECT

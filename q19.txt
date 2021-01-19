@@ -1,1 +1,7 @@
-SELECT GovernmentForm, COUNT(*) FROM Country GROUP BY GovernmentForm ORDER BY COUNT(*) DESC LIMIT 3;
+SELECT GovernmentForm, COUNT(*) 
+FROM Country GROUP BY GovernmentForm 
+ORDER BY COUNT(*) DESC LIMIT 3;
+
+
+
+#CORRECT

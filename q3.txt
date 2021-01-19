@@ -1,0 +1,2 @@
+SELECT Name, LifeExpectancy FROM Country 
+WHERE LifeExpectancy IS NOT NULL ORDER BY LifeExpectancy DESC;

@@ -1,0 +1,1 @@
+SELECT Population, LifeExpectancy FROM Country WHERE Code='ARG';

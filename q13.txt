@@ -1,0 +1,4 @@
+SELECT Population/SurfaceArea AS 'Population-to-area ratio' FROM Country 
+WHERE Population/SurfaceArea!=0 
+ORDER BY Population/SurfaceArea ASC 
+LIMIT 10;

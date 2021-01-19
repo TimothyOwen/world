@@ -1,0 +1,1 @@
+SELECT count(*), co.Name FROM (countrylanguage cl JOIN country co ON cl.CountryCode=co.Code) GROUP BY cl.CountryCode ORDER BY count(*) DESC LIMIT 10;

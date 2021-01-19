@@ -1,0 +1,2 @@
+SELECT Name FROM Country 
+WHERE Code IN (SELECT CountryCode FROM CountryLanguage WHERE Language='German' AND Percentage>50);

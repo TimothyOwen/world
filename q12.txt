@@ -1,0 +1,8 @@
+UPDATE country 
+SET HeadofState='Elizabeth II' 
+WHERE HeadofState='Elisabeth II';
+
+
+SELECT COUNT(Code) 
+FROM country 
+WHERE HeadofState='ELizabeth II';

@@ -1,0 +1,3 @@
+SELECT COUNT(ID) FROM city ci 
+JOIN country co ON ci.CountryCode=co.code 
+JOIN countrylanguage cl ON co.code=cl.countrycode

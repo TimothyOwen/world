@@ -1,0 +1,1 @@
+SELECT COUNT(ID) FROM city ci LEFT OUTER JOIN country co ON ci.CountryCode=co.Code WHERE CountryCode='CHN';
